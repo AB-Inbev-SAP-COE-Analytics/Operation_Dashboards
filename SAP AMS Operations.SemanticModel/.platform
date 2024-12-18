@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "SAP AMS Operations"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3550816e-ef80-4730-9d59-b6e51de6a6dd"
+  }
+}
