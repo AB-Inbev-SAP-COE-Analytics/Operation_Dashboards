@@ -22494,6 +22494,20 @@
             ],
             "formatString": "0.00%;-0.00%;0.00%",
             "lineageTag": "66ea8a4a-c12e-4abb-bf83-5acd714c2098"
+          },
+          {
+            "name": "L1 Impact",
+            "displayFolder": "Volume of Tickets",
+            "expression": [
+              "",
+              "    CALCULATE([Closed Tickets],",
+              "    'F_main'[first_assignment_group_level_inc] = \"L1\"",
+              "    &&",
+              "    ('F_main'[last_assignment_group_level_inc] = \"L2\" || 'F_main'[last_assignment_group_level_inc] = \"L1\")",
+              "    )"
+            ],
+            "formatString": "0",
+            "lineageTag": "30ae3492-8d07-45ae-ab54-09a8a0e629f9"
           }
         ],
         "partitions": [
